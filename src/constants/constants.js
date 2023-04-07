@@ -18,12 +18,12 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+    title: 'Dashboard App',
+    description: "React Admin Dashboard Application : This Admin Panel includes one Dashboard, Three Pages, Four Apps, and Seven fully functional charts!.",
       image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+      tags: ['React', 'Syncfusion'],
+    source: 'https://github.com/amandekate/dashboard',
+    visit: 'https://dashboard-amandekate.vercel.app/',
     id: 2,
   },
   {
