@@ -1,5 +1,6 @@
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin,AiOutlineMail } from 'react-icons/ai';
+import Button from '../../styles/GlobalComponents/Button';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import {FiPhoneCall} from 'react-icons/fi';
