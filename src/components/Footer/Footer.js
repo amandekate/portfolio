@@ -39,7 +39,7 @@ const Footer = () => {
           <Button
             onClick={() =>
               (window.location =
-                "https://drive.google.com/file/d/1iqMKnA1gM69tUxLFENeSAwE6Pdgs8c45/view?usp=share_link")
+                "https://drive.google.com/file/d/1u8ipsdcnM7s4Exz6VNvbpWvYgOlm9pSx/view?usp=sharing")
             }
           >
             Resume
