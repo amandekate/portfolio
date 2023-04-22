@@ -4,7 +4,7 @@ import Button from '../../styles/GlobalComponents/Button';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import {FiPhoneCall} from 'react-icons/fi';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer, Div4 } from './FooterStyles';
+import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer} from './FooterStyles';
 
 const Footer = () => {
   return (
