@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import {DiPython, DiReact, DiMongodb } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -8,7 +8,7 @@ const Technologies = () =>  (
     <SectionDivider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-    I've worked with a range of technologies in the web developemnet world.
+    I've worked with a range of technologies .
     </SectionText>
     <List>
       <ListItem>
@@ -16,28 +16,27 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br/>
-            React.js
+            Html, CSS, JavaScript <br/>
+            React.js, Next.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <DiMongodb size="3rem" />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br/>
-            Node.js and Databases
+             Nodejs<br/>
+            Mongo.db
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <DiPython size="3rem" />
         <ListContainer>
-          <ListTitle>ACCcaVDVS</ListTitle>
+          <ListTitle>Other Technology</ListTitle>
           <ListParagraph>
-            Experience with <br/>
-            czxczczx
+            Python
           </ListParagraph>
         </ListContainer>
       </ListItem>

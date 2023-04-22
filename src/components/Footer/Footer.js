@@ -1,7 +1,8 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin,AiOutlineMail } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
+import {FiPhoneCall} from 'react-icons/fi';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
 const Footer = () => {
@@ -9,10 +10,12 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
       <LinkColumn>
+      <FiPhoneCall size="3rem" />
       <LinkTitle>Call</LinkTitle>
       <LinkItem href="tel:7987572664">7987572664</LinkItem>
       </LinkColumn>
       <LinkColumn>
+      <AiOutlineMail size="3rem" />
       <LinkTitle>Email</LinkTitle>
       <LinkItem href="mailto:amandekate007@gmail.com">
         amandekate007@gmail.com
@@ -29,8 +32,6 @@ const Footer = () => {
         </SocialIcons>
         <SocialIcons href="https://linledin.com">
         <AiFillLinkedin size="3rem"/>
-        </SocialIcons><SocialIcons href="https://instagram.com">
-        <AiFillInstagram size="3rem"/>
         </SocialIcons>
           </SocialContainer>
       </SocialIconsContainer>
