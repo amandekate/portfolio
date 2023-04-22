@@ -59,6 +59,9 @@ justify-content: space-between;
   flex-direction: column;
 }
 `
+export const Div4 =styled.div `
+display:flex;
+`
 
 export const CompanyContainer = styled.div`
   display: flex;

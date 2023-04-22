@@ -4,7 +4,7 @@ import Button from '../../styles/GlobalComponents/Button';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import {FiPhoneCall} from 'react-icons/fi';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer} from './FooterStyles';
+import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer, Div4} from './FooterStyles';
 
 const Footer = () => {
   return (
@@ -22,7 +22,7 @@ const Footer = () => {
         amandekate007@gmail.com
         </LinkItem>
       </LinkColumn>
-      <Div4 classname="flex center">
+      <Div4>
       <Button
         onClick={() =>
           openURLInNewTab(window.location =
