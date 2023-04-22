@@ -61,6 +61,7 @@ justify-content: space-between;
 `
 export const Div4 =styled.div `
 display:flex;
+align :center;
 `
 
 export const CompanyContainer = styled.div`

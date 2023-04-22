@@ -30,8 +30,8 @@ const Footer = () => {
         }
       >
         Resume
-        <p>Here's my Resume</p>
       </Button>
+      <p>Here's my Resume</p>
       </Div4>
       </LinkList>
       <SocialIconsContainer>
