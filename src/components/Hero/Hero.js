@@ -21,14 +21,7 @@ const Hero = (props) => (
         technologies and programming languages. Seeking to leverage broad
         development
       </SectionText>
-      <Button
-        onClick={() =>
-          (window.location =
-            "https://drive.google.com/file/d/1iqMKnA1gM69tUxLFENeSAwE6Pdgs8c45/view?usp=share_link")
-        }
-      >
-        Resume
-      </Button>
+      
     </LeftSection>
   </Section>
 );

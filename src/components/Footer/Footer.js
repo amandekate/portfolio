@@ -21,16 +21,26 @@ const Footer = () => {
         amandekate007@gmail.com
         </LinkItem>
       </LinkColumn>
+      <LinkColumn>
+      <Button
+        onClick={() =>
+          (window.location =
+            "https://drive.google.com/file/d/1iqMKnA1gM69tUxLFENeSAwE6Pdgs8c45/view?usp=share_link")
+        }
+      >
+        Resume
+      </Button>
+      </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>Innovating one project at a time</Slogan>
         </CompanyContainer>
         <SocialContainer>
-        <SocialIcons href="https://github.com">
+        <SocialIcons href="https://github.com/amandekate">
         <AiFillGithub size="3rem"/>
         </SocialIcons>
-        <SocialIcons href="https://linledin.com">
+        <SocialIcons href="https://www.linkedin.com/in/aman-dekate-1b8254195/">
         <AiFillLinkedin size="3rem"/>
         </SocialIcons>
           </SocialContainer>
